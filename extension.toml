@@ -1,0 +1,8 @@
+id = "gdscript-snippets"
+name = "GDScript Snippets"
+version = "0.0.1"
+schema_version = 1
+authors = ["Loyal <loyal-disloyal@proton.me>"]
+description = "A collection of Godot 4 snippets for faster development."
+repository = "https://github.com/loyal-disloyal/gdscript-zed-snippets"
+snippets = "./snippets/gdscript.json"
