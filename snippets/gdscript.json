@@ -51,6 +51,11 @@
     ],
     "description": "Define a static function with a void return type."
   },
+  "Godot Lambda Function": {
+    "prefix": "lamb",
+    "body": ["func(${1:args}):", "\t$0"],
+    "description": "Godot 4 Anonymous Function (Lambda)"
+  },
   "Variable Declaration": {
     "prefix": "var",
     "body": "var ${1:variable_name}: ${2:Type} = ${3:default_value}$0",
