@@ -1,6 +1,6 @@
 id = "gdscript-snippets"
 name = "GDScript Snippets"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Loyal <loyal-disloyal@proton.me>"]
 description = "A collection of Godot 4 snippets for faster development."
