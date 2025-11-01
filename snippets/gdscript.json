@@ -155,10 +155,8 @@
   },
   "Signal Connect": {
     "prefix": "sc",
-    "body": [
-      "connect(\"${1:signal_name}\", Callable(self, \"${2:method_name}\"))$0"
-    ],
-    "description": "Connect a signal to a method in the current script."
+    "body": ["${1:signal_name}.connect(${2:method})"],
+    "description": "Godot 4 Signal Connect (signal.connect(method))"
   },
   "Await Signal": {
     "prefix": "await",
